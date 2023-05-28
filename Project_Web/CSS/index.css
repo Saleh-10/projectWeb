@@ -1,0 +1,197 @@
+ * {
+     margin: 0;
+     padding: 0;
+    
+ }
+
+ /* Start style header*/
+ .navbar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor: pointer;
+     background: linear-gradient(#6AC7BD, #0A1A44);
+     background-blend-mode: darken;
+     background-size: cover;
+ }
+
+
+
+ .nav-list {
+     width: 60%;
+     display: flex;
+     align-items: center;
+ }
+
+ .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .logo img {
+     width: 180px;
+     border-radius: 50px;
+ }
+
+ .nav-list li {
+     list-style: none;
+     padding: 26px 30px;
+ }
+
+ .nav-list li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .nav-list li a:hover {
+     color: grey;
+ }
+
+ .rightnav {
+     width: 30%;
+     text-align: right;
+ }
+
+ #search {
+     padding: 5px;
+     font-size: 17px;
+     border: 2px solid grey;
+     border-radius: 9px;
+ }
+
+ /* End style header*/
+
+ /* Start style mnue*/
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for Table Header */
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style for Table Header Cells */
+  th {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for Table Rows */
+  tbody tr {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for Table Data Cells */
+  td {
+    padding: 10px;
+    vertical-align: middle;
+  }
+  
+  /* Style for Image Container */
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style for Image */
+  .image-container img {
+    display: block;
+    width: 400px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Style for Overlay */
+  .overlay {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+  }
+  
+  /* Style for Overlay on Hover */
+  .image-container:hover .overlay {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5)}
+ /* End style mnue*/
+
+ /* Start style Footer*/
+
+.footer {
+    background-color: #0A1A44;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  /* Style for Footer Column Headings */
+  .footer h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Style for Footer Column Paragraphs */
+  .footer p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  /* Style for Footer Contact List */
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for Footer Contact List Icons */
+  .footer ul li i {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Style for Social Icons */
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style for Social Icons */
+  .social-icons li a i {
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+  }
+  
+  /* Style for Bottom Bar */
+  .bottom-bar {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Style for BottomBar Text */
+  .bottom-bar p {
+    font-size: 14px;
+    margin: 0;
+  } 
+ /* End style Footer*/

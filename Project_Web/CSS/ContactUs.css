@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 2px 6px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightNav {
+    width: 50;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background {
+    background: linear-gradient(#6AC7BD, #4a5c88);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+
+
+.firstHalf img {
+    display: flex;
+    border-radius: 9050px;
+}
+
+.text-big {
+    font-family: "Piazzolla", serif;
+    font-weight: bold;
+    font-size: 41px;
+    text-align: center;
+}
+
+.text-small {
+    font-family: "Sansita Swashed", cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+footer {
+    background: linear-gradient(#6AC7BD, #4a5c88);
+        background-blend-mode: darken;
+        background-size: cover;
+    padding: 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info p,
+.social-media ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-info a,
+.social-media a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media i {
+    font-size: 20px;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info,
+    .social-media {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        text-align: center;
+    }
+}
