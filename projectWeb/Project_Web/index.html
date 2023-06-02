@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <title>MyActivity</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  
+</head>
+
+<body>
+
+
+  <!--Start header-->
+  <header>
+    <nav class="navbar ">
+      <ul class="nav-list">
+        <div class="logo">
+          <img src="/projectWeb/Project_Web/images/MA-1.png">
+        </div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="Course.html">Course</a></li>
+        <li><a href="Activity.html">Activity</a></li>
+        <li><a href="Event.html">Event</a></li>
+        <li><a href="addActivty.html">addActivty</a></li>
+        <li>
+          <div class="serch-container">
+            <form class="SearchBar">
+              <input type="text" name="search" id="search" placeholder="Serach For Activity">
+              <button class="button" onclick="">Search</button>
+            </form>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--End header-->
+  <!--Start menu-->
+  <div id="menu">
+    <div class="category" id="activity">
+        <h2>Activity</h2>
+        <div class="items-container"></div>
+    </div>
+    <div class="category" id="event">
+        <h2>Event</h2>
+        <div class="items-container"></div>
+    </div>
+    <div class="category" id="courses">
+        <h2>Courses</h2>
+        <div class="items-container"></div>
+    </div>
+</div>
+<button id="add-item">Add Item</button>
+
+<!-- Add Item Form -->
+<div id="add-item-form" style="display: none;">
+    <h1>Add New Item</h1>
+    <form>
+        <label for="category">Category:</label>
+        <select name="category" id="form-category">
+            <option value="activity">Activity</option>
+            <option value="event">Event</option>
+            <option value="courses">Courses</option>
+        </select>
+
+        <label for="image-url">Image URL:</label>
+        <input type="url" name="image-url" id="form-image-url" required>
+
+        <label for="description">Description:</label>
+        <textarea name="description" id="form-description" required></textarea>
+
+        <input type="submit" value="Add Item">
+    </form>
+</div>
+<script src="javaScript/index.js"></script>
+  <!--End menu-->
+
+  <!-- start footer-->
+  <footer>
+  
+    <div class="container">
+      <div class="Contact">
+        <h3 class="CU">Contact Us</h3>
+        <h3 class="FU">Follow Us</h3>
+      </div>
+  
+      <div calss="refrance">
+        <a class="email" href="mailto:studentsunit.psau@gmail.com">studentsunit.psau@gmail.com</a>
+      </div>
+  
+      <div class="icons">
+        <ul class="social-icons">
+          <li><a class="twitter" href="https://twitter.com/?lang=ar"><i class="bx bxl-twitter"></i></a></li>
+        </ul>
+      </div>
+  
+      <div class="bottom-bar">
+        <p> Copyright &copy;
+          <script>document.write(new date().getFullYear());</script> My Activity
+        </p>
+      </div>
+  
+    </div>
+  </footer>
+  <!-- End footer-->
+
+</body>
+
+
+</html>

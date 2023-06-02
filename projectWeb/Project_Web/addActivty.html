@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/Forms.css">
+    <title>Add Activity Form</title>
+
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>Add page</h1>
+            
+        </div>
+        <div class="form-container">
+            <form action="index.html" method="post">
+                <label >Name:</label>
+                <input type="text" id="ideaName"  required><br>
+                <label >type of idea:</label>
+                <select id="selectActivity" class="select">
+                    <option value="Activity">Activity</option>
+                    <option value="Event">Event</option>
+                    <option value="Course">Course</option>
+                </select>
+                
+                <label >tell us more about the idea:</label>
+                <textarea  id="textarea"></textarea><br>
+                <button type="submit" onclick="addTable(ideaName,selectActivity,textarea)">Add</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
