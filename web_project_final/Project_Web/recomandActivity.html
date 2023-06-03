@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/Forms.css">
+    <title>Recomandation Form</title>
+
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>you have an idea?</h1>
+            <p>here you can share your ideas to help creting more activits:</p>
+        </div>
+        <div class="form-container">
+            <form action="/join" method="post">
+                <label >Name of the idea:</label>
+                <input type="text" id="idea-name" name="idea-name" required><br>
+                <label >type of idea:</label>
+                <select class="select">
+                    <option value="Activity">Activity</option>
+                    <option value="Event">Event</option>
+                    <option value="Course">Course</option>
+                </select>
+                <label >your name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label >id:</label>
+                <input type="text" id="id" name="id" required size="9"><br>
+                <label >phone number</label>
+                <input type="tel" id="phone" name="phone" required><br>
+                <label >tell us more about the idea:</label>
+                <textarea id="dietary-restrictions" name="dietary-restrictions"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
